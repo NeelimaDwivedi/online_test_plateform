@@ -1,0 +1,533 @@
+
+body {
+    font-family: Verdana;
+    font-size: 0.8em;
+    background-color:  #dfe7ea;
+}
+
+
+/*
+* Common Styles
+*/
+
+#header,
+#main,
+#footer {
+    padding: 10px;
+
+}
+
+#main {
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 6px;
+    margin:0px 80px;
+}
+
+#logo {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#menu,
+#footer-links {
+    list-style: none;
+    overflow: hidden;
+}
+
+#menu li,
+#footer-links li {
+    float: left;
+}
+#menu li a:hover,
+#menu li input[type=submit]:hover,
+#menu li a:focus,
+#menu li input[type=submit]:focus,
+#footer-links li a:hover,
+#footer-links li a:focus{
+    background-color:#4ea2c0;
+    padding:10px 15px;
+    border-radius: 8px;
+}
+
+#menu li input[type="submit"],
+#menu li a,
+#footer-links li a {
+    margin:10px 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#menu li input[type="submit"],
+#menu li a{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#menu li:first-child input[type="submit"],
+#menu li a,
+#footer-links li:first-child a {
+    padding-left: 0px;
+}
+
+#footer-links {
+    padding-top: 50px;
+    width: 30%;
+    margin: 0 auto;
+}
+/*
+* Home Page
+*/
+
+#main p {
+    font-size: 15px;
+    word-spacing: 2px;
+    margin-bottom: 10px;
+    text-align: justify;
+
+}
+
+/*
+* product Page
+*/
+
+
+#products {
+    overflow: hidden;
+    padding-top: 30px;
+}
+#products .product b{
+display: block;
+}
+#products .product {
+    display: block;
+    float: left;
+    font-size: 14px;
+    margin-bottom: 20px;
+    max-width: 280px;
+    padding: 20px;
+    text-align: center;
+}
+
+/*
+*contact-form
+*/
+#products .product .add-to-cart,
+#contact-form .submit input[type="submit"] {
+    width: 500px;
+    background: #3e9cbf;
+    padding: 8px 14px 10px;
+    border: 1px solid #3e9cbf;
+    cursor: pointer;
+    font-size: 1.2em;
+    display: block;
+    max-width: 60%;
+    margin: 20px auto 0px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    -webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+    -moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+    box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+#products .product .add-to-cart:hover,
+#products .product .add-to-cart:focus,
+#contact-form .submit input[type="submit"]:hover,
+#contact-form .submit input[type="submit"]:focus {
+    color: #dfe7ea;
+    -webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+    -moz-box-shadow: inset 0px 1px 0px #bae4f3, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+    box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+}
+#contact-form .submit input[type="submit"] {
+    width: 100px;
+    display: inline;
+    font-size: 1em;
+}
+#contact-form{
+    padding-left: 400px;
+}
+#contact-form label,
+#contact-form .form-control {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+}
+
+#contact-form .form-control {
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+
+
+
+#signupForm label,
+#signinForm label,
+#updateForm label {
+    display: block;
+    margin-top: 10px;
+}
+
+h1 {
+    text-shadow: 2px 2px 4px grey;
+}
+
+#signupForm input[type=text],
+#signupForm input[type=password],
+#signinForm input[type=text],
+#signinForm input[type=password],
+#updateForm input[type=text],
+#updateForm input[type=password] {
+    margin-left: 10px;
+    padding: 5px 15px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    box-shadow: 2px 2px grey;
+}
+
+#signupForm input[type=text]:hover,
+#signupForm input[type=password]:hover,
+#signupForm input[type=submit]:hover,
+#signinForm input[type=text]:hover,
+#signinForm input[type=submit]:hover,
+#signinForm input[type=password]:hover,
+#updateForm input[type=text]:hover,
+#updateForm input[type=submit]:hover,
+#updateForm input[type=password]:hover {
+    cursor: pointer;
+}
+
+#signupForm input[type=submit],
+#signinForm input[type=submit],
+#updateForm input[type=submit]{
+    width: 50px;
+    background: #3e9cbf;
+    padding: 8px 14px 10px;
+    border: 1px solid #3e9cbf;
+    cursor: pointer;
+    font-size: 1.2em;
+    width: 100px;
+    display: inline;
+    font-size: 1em;
+    margin: 20px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    -webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+    -moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+    box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#errors li {
+    color: red;
+}
+#wrapmain1{
+    background-color: white;
+    border-radius:6px;
+    padding:20px;
+    margin:0px 80px;
+
+}
+#user1,
+#main1 {
+    display: block;
+
+}
+
+#adminAction{
+    display: block;
+    margin:30px 30px;
+
+}
+
+
+#adminAction input[type="submit"]{
+    width: 500px;
+    background: #3e9cbf;
+    padding: 8px 14px 10px;
+    border: 1px solid #3e9cbf;
+    cursor: pointer;
+    font-size: 1.2em;
+    display: block;
+    max-width: 60%;
+    margin: 20px auto 0px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    -webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+    -moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+    box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+}
+#indexwrap .useraction{
+    width: 500px;
+    background: #3e9cbf;
+    padding: 8px 14px 10px;
+    border: 1px solid #3e9cbf;
+    cursor: pointer;
+    font-size: 1.2em;
+    display: block;
+    max-width: 60%;
+    margin: 20px auto 0px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    -webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+    -moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+    box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+}
+#indexwrap .useraction
+
+#user1 tr th,
+#user1 tr td,
+#user tr th,
+#user tr td{
+    padding: 10px 20px;
+    background-color: #C8C8C8;
+}
+#wrap{
+    padding: 30px;
+    padding-left:210px;
+
+}
+
+#wrap h2{
+    background-color: #C8C8C8;
+    width: 180px;
+    padding:5px 295px;
+}
+#wrap h3{
+    background-color: #C8C8C8;
+    width: 210px;
+    padding:5px 180px;
+}
+
+#products,
+#cartwrap{
+    overflow: hidden;
+    background-color: white;
+
+    border-radius: 7px;
+    margin:0px 60px;
+}
+#products .product {
+    float: left;
+    font-size: 14px;
+    margin-bottom: 10px;
+    max-width: 280px;
+    padding: 10px;
+    text-align: center;
+}
+#user1 tr td img{
+    height: 30px;
+    width: 30px;
+}
+#wrapmain1 #updtdetails{
+    padding-left: 40px;
+}
+
+#cartwrap{
+    background-color: white;
+    margin:20px 250px;
+
+}
+#cartwrap #cartdisplay{
+    padding:50px;
+}
+#cartwrap #cartdisplay .cartproduct span{
+    padding-left: 70px;
+    color:grey;
+    padding-bottom: 20px;
+
+}
+
+#cartwrap #cartdisplay hr{
+    width: 70%;
+}
+#cartwrap #cartdisplay .cartproduct span b{
+    color:black;
+}
+#cartwrap #cartdisplay .cartproduct img{
+height: 60px;
+width: 60px;
+}
+#cartfooter{
+    background-color:#dfe7ea ;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+#cartfooter #shopping{
+    background-color: #0080ff;
+    padding: 15px 20px;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#cartfooter #checkout{
+    background-color:  #00cc33;
+    padding: 15px 20px;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 513px;
+    border-radius: 5px;
+}
+#cartwrap #cartdisplay p,
+#cartwrap #cartdisplay .cartproduct a i{
+    color: gray;
+    padding-left: 40px;
+}
+#cartwrap #cartdisplay .cartproduct a i:hover{
+    color:darkgray;
+}
+#cartwrap #cartdisplay .cartproduct span input[type=text]{
+    width: 20px;
+
+}
+#cartwrap #cartdisplay .cartproduct span input[type=submit]{
+    width: 50px;
+    background: #3e9cbf;
+    border: 1px solid #3e9cbf;
+    cursor: pointer;
+    margin-left:10px ;
+    font-size: 1.2em;
+    text-decoration: none;
+    text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    -webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+    -moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+    box-shadow: inset 0px 1px 0px #3e9cbf, 0px 3px 0px 0px #205c73, 0px 5px 2px #999;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+
+}
+#cartwrap #cartdisplay .cartproduct #gtotal{
+    color: #0080ff;
+    padding-left: 50px;
+}
+#cartwrap #cartdisplay p{
+    padding-left:120px;
+    display: inline;
+}
+#cartwrap #cartdisplay p b{
+    color:black;
+    font-size: large;
+    padding-left: 30px;
+}
+#managewrap,
+#main1,
+#indexwrap,
+#adminwrap{
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin: 0px 60px;
+    border-radius: 6px;
+}
+
+#user1{
+    padding-left: 0px;
+}
+#wrapuser1 h2,
+#main1 h1,
+#signupForm,
+#signinForm,
+#updateForm,
+#main1 h2{
+padding-left: 450px;
+}
+#wrapuser1{
+    padding:40px;
+}
+#wrapuser1 h2{
+    background-color:#C8C8C8;
+    width: 57%;
+}
+.material-icons{
+    color:#545454;
+}
+.open-button {
+    background-color: #3e9cbf;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+
+  .notification {
+    margin-top: 10px;
+    position: relative;
+    margin: 0 0 10px 0;
+    padding: 0px;
+    border: 1px solid;
+    background-position: 10px 11px !important;
+    background-repeat: no-repeat !important;
+    font-size: 13px;
+    width:50%;
+    }
+
+
+.attention {
+
+    background: #3e9cbf url('../images/icons/exclamation.png') 10px 11px no-repeat;
+    border-color: #144c61;
+    color: white;
+    }
+    .notification div {
+        display:block;
+        font-style:normal;
+        padding: 10px 10px 10px 36px;
+        line-height: 1.5em;
+        }
+
+.notification .close {
+        color:#990000;
+        font-size:9px;
+        position:absolute;
+        right:5px;
+        top:5px;
+        }
+
+
+        .notification {
+            -moz-border-radius: 6px;
+            -webkit-border-radius: 6px;
+            border-radius: 6px;
+            }
+
+  /* Add a red background color to the cancel button */
+
+  /* Add some hover effects to buttons */
+  .result-container .btn:hover, .open-button:hover{
+    opacity: 1;
+  }
